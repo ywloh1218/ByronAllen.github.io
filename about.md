@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-##### Byron Allen, Junior Data Scientist 
-##### with Interests in Geospatial and Image Recognition
+##### Byron Allen, Junior Data Scientist with Interests in Geospatial
 
 I am a junior data scientist who previously worked in marketing communications. Hands-on experience with data-driven insights and reports became the catalyst to my current journey. In April 2016, I decided to fully commit myself to re-skilling.
 
