@@ -1,9 +1,9 @@
 ---
 layout: post
-title: test post
+title: test
 ---
 
-testing:
+### testing:
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
