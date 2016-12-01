@@ -11,11 +11,11 @@ To analyze sentiment I went through the following process:
 - Created a word count matrix as my feature set
 - Use RANSAC and ElasticNet to predict sentiment score  
 
+In conclusion, I found that ElasticNet generated predictions capture the dynamicity of word-based sentiment amongst the tweets. It will also explain around 94% of the actual results. RANSAC-based prediction will tend to overestimate sentiment results.
 ![_config.yml]({{ site.baseurl }}/images/globalgoals.png)
 
 _Image: RANSAC predicitions are in blue and ElasticNet predicitions are in red._
 
-In conclusion, I found that ElasticNet generated predictions capture the dynamicity of word-based sentiment amongst the tweets. It will also explain around 94% of the actual results. RANSAC-based prediction will tend to overestimate sentiment results.
 
 Possible next steps
 

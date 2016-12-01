@@ -8,7 +8,8 @@ From the job search aggregator, Indeed.com, I scrapped key data points from over
 It quickly became clear that there was a clear and noticeable difference between salary in Australia and the USA.
 
 ![_config.yml]({{ site.baseurl }}/images/violinplot_ds_salary.png)
-*Image: * The y axis represents salaries in USD. 
+
+*Image: The y axis represents salaries in USD.*
 
 Key words from job titles remained the strongest overall indicator of salary. However, it became clear that the predictive power of these words varies greatly with location. My model appeared to be better at predicting high paying jobs in the USA (especially California), but not in Australia.
 
