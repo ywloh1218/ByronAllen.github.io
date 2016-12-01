@@ -10,6 +10,4 @@ I am a junior data scientist who previously worked in marketing communications. 
 
 I’m excited by the results that machine learning and predictive analysis can deliver, and how data- driven decision-making can help shape a better future. That's why I chose 'Filling the Land Conversion Gap with Machine Learning' as my capstone project for General Assembly's Data Science Immersive course. 
 
-For more information about me and my work check out my LinkedIn page (link below) or email me. 
-
-[byron.a.allen@gmail.com](mailto:byron.a.allen@gmail.com)
+Please use the below icons to see more information about me or get in touch. 
