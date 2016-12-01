@@ -7,13 +7,13 @@ The Social Good Summit is held annual to showcase how various NGOs, companies an
 
 To analyze sentiment I went through the following process:
 
-* Calculate sentiment score for each tweet using nltk.corpus.sentiwordnet
-* Created a word count matrix as my feature set
-* Use RANSAC and ElasticNet to predict sentiment score  
+- Calculate sentiment score for each tweet using nltk.corpus.sentiwordnet
+- Created a word count matrix as my feature set
+- Use RANSAC and ElasticNet to predict sentiment score  
 
 ![_config.yml]({{ site.baseurl }}/images/globalgoals.png)
 
-*Image:* RANSAC predicitions are in blue and ElasticNet predicitions are in red.
+_Image: RANSAC predicitions are in blue and ElasticNet predicitions are in red._
 
 In conclusion, I found that ElasticNet generated predictions capture the dynamicity of word-based sentiment amongst the tweets. It will also explain around 94% of the actual results. RANSAC-based prediction will tend to overestimate sentiment results.
 
