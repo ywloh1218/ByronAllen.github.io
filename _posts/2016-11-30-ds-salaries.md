@@ -15,7 +15,7 @@ Key words from job titles remained the strongest overall indicator of salary. Ho
 
 ![_config.yml]({{ site.baseurl }}/images/location_salary_bin.png)
 
-To visualize (or is it visualize?) the difference between Australia and the USA, I compared words with the greatest predictive power in each location. There appears to be a high demand for senior data scientists in the USA where as the most predictive words in Australia are a bit more generic.
+To visualize the difference between Australia and the USA, I compared words with the greatest predictive power in each location. There appears to be a high demand for senior data scientists in the USA where as the most predictive words in Australia are a bit more generic.
 
 ![_config.yml]({{ site.baseurl }}/images/words_aus_usa.png)
 
