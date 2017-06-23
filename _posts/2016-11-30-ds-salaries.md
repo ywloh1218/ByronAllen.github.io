@@ -7,15 +7,16 @@ As part of the projects I completed at DSI2, I built a webscraper that took >100
 First, here are the modules I'm starting with.
 ![_config.yml]({{ site.baseurl }}/images/P4mods.png)
 
-Adapting a function from Greg Reda at [gregreda.com](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python)
-
-And using the 'requests' module to obtain the HTML from the page, (And of course, parsing the HTML with BeautifulSoup), I wrote a function to parse through Seek pages and develop a list of job posting links.
+Adapting a function from Greg Reda at [gregreda.com](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python), and using the 'requests' module to obtain the HTML from the page, (And of course, parsing the HTML with BeautifulSoup), I wrote a function to parse through Seek pages and develop a list of job posting links.
 
 ![_config.yml]({{ site.baseurl }}/images/ScrapFunc.png)
 
 Applying the function to Seek's search results for the term "Data",
 
+
 ![_config.yml]({{ site.baseurl }}/images/1stScrape.png)
+
+And there we go! We've scraped the first page of Seek, obtaining 20 links.
 
 From the job search aggregator, Indeed.com, I scrapped key data points from over 2700 jobs across six cities: Sydney, Melbourne, San Francisco, New York, Newark and Chicago. The resulting datasets were collated, cleaned and stored in the pandas DataFrame 'jobs', which was used to identify what feature is the best predictor of salary.
 
