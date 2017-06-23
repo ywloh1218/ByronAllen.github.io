@@ -12,7 +12,7 @@ Adapting a function from Greg Reda at [gregreda.com](http://www.gregreda.com/201
 ![_config.yml]({{ site.baseurl }}/images/ScrapFunc.png)
 
 Applying the function to Seek's search results for the term "Data",
-
+/n
 
 ![_config.yml]({{ site.baseurl }}/images/1stScrape.png)
 
