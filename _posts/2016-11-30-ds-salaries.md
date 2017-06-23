@@ -1,7 +1,13 @@
 ---
 layout: post
-title: What Predicts the Best Data Science Salaries?
+title: Scraping Seek.com.au!
 ---
+As part of the projects I completed at DSI2, I built a webscraper that took job postings from Seek.com.au and parsed them for salary information.
+
+First, here are the modules I'm starting with.
+![_config.yml]({{ site.baseurl }}/images/P4mods.png)
+
+Using a function I adapted from Greg Reda at [gregreda.com](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/:)
 
 From the job search aggregator, Indeed.com, I scrapped key data points from over 2700 jobs across six cities: Sydney, Melbourne, San Francisco, New York, Newark and Chicago. The resulting datasets were collated, cleaned and stored in the pandas DataFrame 'jobs', which was used to identify what feature is the best predictor of salary.
 
@@ -20,4 +26,3 @@ To visualize the difference between Australia and the USA, I compared words with
 ![_config.yml]({{ site.baseurl }}/images/words_aus_usa.png)
 
 Click [here](https://github.com/ByronAllen/Portfolio/blob/master/GA_DSI_Project_4.ipynb) to see the full notebook.
-
